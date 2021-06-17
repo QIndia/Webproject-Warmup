@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>First Project</title>
-	<script src='js/core.js'></script>
-       <link rel="stylesheet" type="text/css" href="css/style1.css">
-</head>
+<style>
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top:200;
+  left: 200;  
+  background-color: red;
+}
+</style>
 <body>
+
+<p>
+<button onclick="myMove()">Click Me</button> 
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+
+<script type="text/javascript" src="js/core.js">
 
 </body>
 </html>
